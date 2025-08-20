@@ -1,7 +1,3 @@
-"use client";
-
-import { useState, useCallback } from "react";
-
 export interface Translations {
   [key: string]: {
     en: string;
@@ -9,7 +5,7 @@ export interface Translations {
   };
 }
 
-const translations: Translations = {
+export const translations: Translations = {
   // Hero Section
   heroTitle: {
     en: "The Ultimate Timer for Your CrossFit Workouts",
@@ -150,24 +146,3 @@ const translations: Translations = {
     es: "Diseñado y desarrollado por",
   },
 };
-
-export function useTranslation() {
-  const [language, setLanguage] = useState<"en" | "es">("en");
-
-  const t = useCallback(
-    (key: string): string => {
-      return translations[key]?.[language] || key;
-    },
-    [language]
-  );
-
-  const changeLanguage = useCallback((newLanguage: "en" | "es") => {
-    setLanguage(newLanguage);
-  }, []);
-
-  return {
-    t,
-    language,
-    changeLanguage,
-  };
-}

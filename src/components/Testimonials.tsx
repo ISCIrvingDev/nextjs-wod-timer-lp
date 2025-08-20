@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslation } from "@/hooks/useTranslation";
+import { useTranslation } from "@/hooks/use-translation.hook";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslation } from "@/hooks/useTranslation";
+import { useTranslation } from "@/hooks/use-translation.hook";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Timer, Repeat, Target, Zap } from "lucide-react";
 

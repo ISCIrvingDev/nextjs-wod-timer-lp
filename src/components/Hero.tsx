@@ -2,12 +2,13 @@
 
 import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
-import { useTranslation } from "@/hooks/useTranslation";
+import { useTranslation } from "@/hooks/use-translation.hook";
 import { Download, Play } from "lucide-react";
 
 // * Images
 import Image from 'next/image'
-import wodTimerLogo from "../assets/wod-timer-logo.jpg";
+// import wodTimerLogo from "../assets/wod-timer-logo.jpg";
+import wodTimerLogo from "@/assets/wod-timer-logo.png";
 import appMockup from "@/assets/app-mockup.jpg";
 
 export function Hero() {
@@ -21,9 +22,10 @@ export function Hero() {
           <Image src={wodTimerLogo} alt="WOD Timer Logo" className="w-10 h-10" />
           <span className="text-xl font-bold text-foreground">WOD Timer</span>
         </div>
+
         <LanguageSwitcher
           currentLanguage={language}
-          onLanguageChange={changeLanguage}
+          onLanguageChange={(changeLanguage) as (language: string) => void}
         />
       </nav>
 

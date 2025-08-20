@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useTranslation } from "@/hooks/useTranslation";
+import { useTranslation } from "@/hooks/use-translation.hook";
 import { Download, Play } from "lucide-react";
 
 export function CTA() {

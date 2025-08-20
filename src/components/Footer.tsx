@@ -1,11 +1,12 @@
 "use client";
 
-import { useTranslation } from "@/hooks/useTranslation";
+import { useTranslation } from "@/hooks/use-translation.hook";
 import { Github, Twitter, Instagram, Mail } from "lucide-react";
 
 // * Images
 import Image from 'next/image'
-import wodTimerLogo from "@/assets/wod-timer-logo.jpg";
+// import wodTimerLogo from "@/assets/wod-timer-logo.jpg";
+import wodTimerLogo from "@/assets/wod-timer-logo.png";
 
 export function Footer() {
   const { t } = useTranslation();
