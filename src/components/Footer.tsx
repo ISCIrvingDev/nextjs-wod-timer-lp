@@ -1,6 +1,11 @@
+"use client";
+
 import { useTranslation } from "@/hooks/useTranslation";
-import wodTimerLogo from "@/assets/wod-timer-logo.jpg";
 import { Github, Twitter, Instagram, Mail } from "lucide-react";
+
+// * Images
+import Image from 'next/image'
+import wodTimerLogo from "@/assets/wod-timer-logo.jpg";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -12,7 +17,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src={wodTimerLogo} alt="WOD Timer Logo" className="w-8 h-8" />
+              <Image src={wodTimerLogo} alt="WOD Timer Logo" className="w-8 h-8" />
               <span className="text-lg font-bold text-card-foreground">WOD Timer</span>
             </div>
             <p className="text-secondary text-sm leading-relaxed">
@@ -83,6 +88,10 @@ export function Footer() {
         <div className="pt-8 border-t border-border text-center">
           <p className="text-secondary text-sm">
             {t('footerCopyright')}
+          </p>
+
+          <p className="text-secondary text-sm">
+            {t('footerIvinDev')} <span className="text-primary"><a href="https://ivin-dev.com/" target="_blank" rel="noopener external">Ivin Dev</a></span>
           </p>
         </div>
       </div>

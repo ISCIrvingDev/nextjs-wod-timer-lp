@@ -142,8 +142,12 @@ const translations: Translations = {
     es: "Términos de Servicio",
   },
   footerCopyright: {
-    en: "© 2024 WOD Timer. All rights reserved.",
-    es: "© 2024 WOD Timer. Todos los derechos reservados.",
+    en: "© 2025 WOD Timer. All rights reserved.",
+    es: "© 2025 WOD Timer. Todos los derechos reservados.",
+  },
+  footerIvinDev: {
+    en: "Designed and developed by",
+    es: "Diseñado y desarrollado por",
   },
 };
 
