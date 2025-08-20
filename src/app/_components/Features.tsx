@@ -38,7 +38,7 @@ export function Features() {
             {t('featuresTitle')}
           </h2>
           <p className="text-lg text-secondary max-w-2xl mx-auto">
-            Choose the perfect timer mode for your CrossFit workout and push your limits
+            {t('featuresSubtitle')}
           </p>
         </div>
 

@@ -62,7 +62,7 @@ export function Hero() {
                 <div className="text-sm text-secondary">Active Users</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">4.8★</div>
+                <div className="text-2xl font-bold text-primary">4.9★</div>
                 <div className="text-sm text-secondary">App Rating</div>
               </div>
               <div className="text-center">

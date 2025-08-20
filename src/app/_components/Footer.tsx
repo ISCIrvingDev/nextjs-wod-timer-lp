@@ -22,7 +22,7 @@ export function Footer() {
               <span className="text-lg font-bold text-card-foreground">WOD Timer</span>
             </div>
             <p className="text-secondary text-sm leading-relaxed">
-              The ultimate CrossFit timer app designed by athletes, for athletes.
+              {t('footerSubtitle')}
             </p>
           </div>
 

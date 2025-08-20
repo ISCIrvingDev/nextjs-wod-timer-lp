@@ -29,6 +29,10 @@ export const translations: Translations = {
     en: "Workout Modes",
     es: "Modalidades de Entrenamiento",
   },
+  featuresSubtitle: {
+    en: "Choose the perfect timer mode for your CrossFit workout and push your limits",
+    es: "Elige el modo de temporizador perfecto para tu entrenamiento de CrossFit y supera tus límites",
+  },
   amrapTitle: {
     en: "AMRAP",
     es: "AMRAP",
@@ -121,6 +125,10 @@ export const translations: Translations = {
   },
 
   // Footer
+  footerSubtitle: {
+    en: "The ultimate CrossFit timer app designed by athletes, for athletes.",
+    es: "La mejor app timer de CrossFit diseñada por atletas, para atletas.",
+  },
   footerSupport: {
     en: "Support",
     es: "Soporte",
