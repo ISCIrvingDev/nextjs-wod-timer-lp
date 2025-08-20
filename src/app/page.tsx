@@ -1,12 +1,12 @@
 // import Image from "next/image";
 
 // * Components
-import { Benefits } from "@/components/Benefits";
-import { CTA } from "@/components/CTA";
-import { Features } from "@/components/Features";
-import { Footer } from "@/components/Footer";
-import { Hero } from "@/components/Hero";
-import { Testimonials } from "@/components/Testimonials";
+import { Benefits } from "./_components/Benefits";
+import { CTA } from "./_components/CTA";
+import { Features } from "./_components/Features";
+import { Footer } from "./_components/Footer";
+import { Hero } from "./_components/Hero";
+import { Testimonials } from "./_components/Testimonials";
 
 export default function Home() {
   return (

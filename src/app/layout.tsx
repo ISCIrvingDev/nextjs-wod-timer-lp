@@ -5,7 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 // * Providers
-import { AppProviders } from "@/providers/app-providers";
+import { AppProvider } from "@/providers/app.provider";
 
 // * Components
 import { Toaster } from "@/components/ui/toaster";
@@ -36,11 +36,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <AppProviders>
+        <AppProvider>
           <Toaster />
           <Sonner />
           {children}
-        </AppProviders>
+        </AppProvider>
       </body>
     </html>
   );

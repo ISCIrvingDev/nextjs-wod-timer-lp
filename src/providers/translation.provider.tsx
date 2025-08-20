@@ -1,7 +1,7 @@
 "use-client";
 
 import { createContext, useState, useCallback, ReactNode } from "react";
-import { translations } from "@/constants/app-translations";
+import { translations } from "@/constants/translations.constant";
 
 interface TranslationContextType {
   language: "en" | "es";

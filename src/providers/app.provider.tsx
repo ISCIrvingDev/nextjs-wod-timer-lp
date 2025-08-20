@@ -5,7 +5,7 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { TranslationProvider } from "./translation.provider";
 
-export function AppProviders({ children }: Readonly<{
+export function AppProvider({ children }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
