@@ -50,7 +50,7 @@ export function Testimonials() {
 
                 {/* Testimonial Text */}
                 <blockquote className="text-center text-secondary mb-6 leading-relaxed">
-                  "{t(testimonial.key)}"
+                  &quot;{t(testimonial.key)}&quot;
                 </blockquote>
 
                 {/* Author */}
