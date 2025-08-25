@@ -36,7 +36,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-secondary hover:text-primary transition-colors">
+                <a href="/faqs" className="text-secondary hover:text-primary transition-colors">
                   FAQ
                 </a>
               </li>
@@ -69,10 +69,10 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-card-foreground mb-4">Follow Us</h3>
             <div className="flex gap-3">
-              <a href="https://www.facebook.com/WODTimer" target="_blank" className="w-10 h-10 bg-muted rounded-full flex items-center justify-center text-secondary hover:text-primary hover:bg-primary hover:text-white transition-all">
+              <a href="https://www.facebook.com/WODTimer" target="_blank" rel="noopener external" className="w-10 h-10 bg-muted rounded-full flex items-center justify-center text-secondary hover:text-primary hover:bg-primary hover:text-white transition-all">
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href="https://www.instagram.com/WODTimer_" target="_blank" className="w-10 h-10 bg-muted rounded-full flex items-center justify-center text-secondary hover:text-primary hover:bg-primary hover:text-white transition-all">
+              <a href="https://www.instagram.com/WODTimer_" target="_blank" rel="noopener external" className="w-10 h-10 bg-muted rounded-full flex items-center justify-center text-secondary hover:text-primary hover:bg-primary hover:text-white transition-all">
                 <Instagram className="w-4 h-4" />
               </a>
               {/* <a href="#" className="w-10 h-10 bg-muted rounded-full flex items-center justify-center text-secondary hover:text-primary hover:bg-primary hover:text-white transition-all">

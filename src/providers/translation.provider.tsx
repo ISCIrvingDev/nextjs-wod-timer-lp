@@ -1,4 +1,4 @@
-"use-client";
+// "use client";
 
 import { createContext, useState, useCallback, ReactNode } from "react";
 import { translations } from "@/constants/translations.constant";

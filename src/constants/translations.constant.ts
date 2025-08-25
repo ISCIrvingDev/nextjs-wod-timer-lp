@@ -124,7 +124,7 @@ export const translations: Translations = {
     es: "Únete a miles de atletas que confían en WOD Timer para sus entrenamientos diarios",
   },
 
-  // Footer
+  // Footer Section
   footerSubtitle: {
     en: "The ultimate CrossFit timer app designed by athletes, for athletes.",
     es: "La mejor app timer de CrossFit diseñada por atletas, para atletas.",
@@ -153,4 +153,196 @@ export const translations: Translations = {
     en: "Designed and developed by",
     es: "Diseñado y desarrollado por",
   },
+
+  // FAQ Page
+  faqTitle: {
+    en: "Frequently Asked Questions (FAQ)",
+    es: "Preguntas Frecuentes (FAQ)",
+  },
+  faqLastUpdated: {
+    en: "Last updated: August 24, 2025",
+    es: "Última actualización: 24 de agosto de 2025",
+  },
+  // "Q" stands for "Question"
+  faqQ1: {
+    en: "1. What is WOD Timer?",
+    es: "1. ¿Qué es WOD Timer?",
+  },
+  // "A" stands for "Answer"
+  faqA1: {
+    en: "WOD Timer is a mobile app that provides configurable timers and local logging for CrossFit‑style workouts including RFT, AMRAP, EMOM and Tabata.",
+    es: "WOD Timer es una aplicación móvil que ofrece temporizadores configurables y registro local para entrenamientos tipo CrossFit como RFT, AMRAP, EMOM y Tabata.",
+  },
+  faqQ2: {
+    en: "2. Is WOD Timer free to use?",
+    es: "2. ¿La app es gratuita?",
+  },
+  faqA2: {
+    en: "By default, the app is free to download and use. If paid features or subscriptions are added in the future, they will be clearly described in the app and in the store listing.",
+    es: "Por defecto, la app es gratuita para descargar y usar. Si se añaden funciones de pago o suscripciones, se indicará claramente en la app y en la tienda.",
+  },
+  faqQ3: {
+    en: "3. Where are my workout (WOD) records saved?",
+    es: "3. ¿Dónde se guardan mis registros de entrenamiento (WOD)?",
+  },
+  faqA3: {
+    en: "All WOD records are stored locally on your device’s storage by default. They are not uploaded to our servers unless you explicitly enable a cloud sync or backup feature.",
+    es: "Los registros de WOD se almacenan localmente en el almacenamiento de tu dispositivo por defecto. No se suben a nuestros servidores salvo que actives explícitamente una función de sincronización en la nube.",
+  },
+  faqQ4: {
+    en: "4. How can I back up or export my WOD history?",
+    es: "4. ¿Cómo puedo hacer copia de seguridad o exportar mi historial de WOD?",
+  },
+  faqA4: {
+    en: "Currently you can export WOD data using the app’s Export feature (if available) to a CSV or JSON file, or enable cloud backup if the app supports it. Make sure to back up your device regularly.",
+    es: "Puedes exportar los datos mediante la función Exportar de la app (si está disponible) a un archivo CSV o JSON, o habilitar la copia de seguridad en la nube si la app lo permite. Haz copias de seguridad regulares de tu dispositivo.",
+  },
+  faqQ5: {
+    en: "5. Can I sync my WODs between devices?",
+    es: "5. ¿Puedo sincronizar mis WODs entre dispositivos?",
+  },
+  faqA5: {
+    en: "Not by default. Syncing across devices requires a cloud/account feature — we will only transmit data off-device if you opt in and enable that feature.",
+    es: "No por defecto. La sincronización entre dispositivos requiere una función de nube/cuenta — solo transmitiremos datos fuera del dispositivo si optas por dicha función.",
+  },
+  faqQ6: {
+    en: "6. How do I delete a WOD or clear all history?",
+    es: "6. ¿Cómo elimino un WOD o borro todo el historial?",
+  },
+  faqA6: {
+    en: "Open the WOD detail or History screen, swipe or tap the delete icon, and confirm. To remove all history, go to Settings > Data > Clear All (or similar). Deleting local data is permanent unless you have a backup.",
+    es: "Abre el detalle del WOD o la pantalla de Historial, desliza o toca el icono de eliminar y confirma. Para eliminar todo el historial ve a Ajustes > Datos > Borrar todo (o similar). El borrado es permanente salvo que tengas una copia de seguridad.",
+  },
+  faqQ7: {
+    en: "7. Does the app collect personal data?",
+    es: "7. ¿La app recopila datos personales?",
+  },
+  faqA7: {
+    en: "By default, no personal data is collected off your device. The app stores workout logs locally. Optional features (account creation, cloud sync, analytics) may collect additional information only if you opt in.",
+    es: "Por defecto, no se recopilan datos personales fuera del dispositivo. La app guarda los registros localmente. Las funciones opcionales (creación de cuenta, sincronización en la nube, analíticas) pueden recopilar información adicional solo si optas por activarlas.",
+  },
+  faqQ8: {
+    en: "8. Is my data secure?",
+    es: "8. ¿Mis datos están seguros?",
+  },
+  faqA8: {
+    en: "We use reasonable technical measures to protect data stored locally and during transmission if you enable cloud services. However, no system is perfectly secure—please back up important data and keep your device protected.",
+    es: "Implementamos medidas técnicas razonables para proteger los datos locales y la transmisión en caso de usar servicios en la nube. Sin embargo, ningún sistema es 100% seguro — realiza copias de seguridad importantes y protege tu dispositivo.",
+  },
+  faqQ9: {
+    en: "9. Can I opt out of analytics or crash reporting?",
+    es: "9. ¿Puedo desactivar las analíticas o los informes de fallos?",
+  },
+  faqA9: {
+    en: "Yes. If the app includes analytics or crash reporting, a setting will allow you to opt out. Default behavior is to keep personal data on-device unless you enable transmission.",
+    es: "Sí. Si la app incluye analíticas o informes de fallos, habrá un ajuste para optar por no participar. Por defecto, los datos personales permanecen en el dispositivo salvo que actives la transmisión.",
+  },
+  faqQ10: {
+    en: "10. Does WOD Timer provide medical or training advice?",
+    es: "10. ¿La app ofrece consejos médicos o de entrenamiento?",
+  },
+  faqA10: {
+    en: "No. WOD Timer is a timing and logging tool only and does not replace professional medical or coaching advice. Consult a qualified professional for personalized guidance.",
+    es: "No. WOD Timer es solo una herramienta de temporizador y registro y no sustituye el consejo médico o de un entrenador profesional. Consulta a un profesional cualificado para guía personalizada.",
+  },
+  faqQ11: {
+    en: "11. Why is my timer drifting or inaccurate?",
+    es: "11. ¿Por qué el temporizador se retrasa o es inexacto?",
+  },
+  faqA11: {
+    en: "Timers rely on the device’s system clock and processing. Background restrictions, battery saver modes, or heavy system load can affect timing accuracy. To improve accuracy, disable aggressive battery optimization for the app and keep the app active while timing.",
+    es: "Los temporizadores dependen del reloj del sistema y de la carga del dispositivo. Restricciones en segundo plano, modos de ahorro de batería o carga alta del sistema pueden afectar la precisión. Para mejorar la precisión, desactiva optimizaciones agresivas de batería para la app y mantén la app activa mientras cronometras.",
+  },
+  faqQ12: {
+    en: "12. Can I share my WOD results on social media?",
+    es: "12. ¿Puedo compartir mis resultados en redes sociales?",
+  },
+  faqA12: {
+    en: "If the app includes a Share option, you can export or share a WOD summary via other apps on your device (e.g., messaging apps or social networks). Sharing will use the device’s native share sheet.",
+    es: "Si la app incluye una opción Compartir, puedes exportar o compartir un resumen del WOD a través de otras apps en tu dispositivo (p. ej., mensajería o redes sociales) usando la hoja de compartir nativa.",
+  },
+  faqQ13: {
+    en: "13. What permissions does the app require?",
+    es: "13. ¿Qué permisos requiere la app?",
+  },
+  faqA13: {
+    en: "Typical permissions include: local storage access (to save logs), optional network access (only if you enable cloud features), and notifications (if you enable alerts). We will request only the permissions necessary for the features you use.",
+    es: "Permisos típicos: acceso a almacenamiento local (para guardar registros), acceso a red opcional (solo si activas la nube) y notificaciones (si activas alertas). Pediremos solo los permisos necesarios para las funciones que uses.",
+  },
+  faqQ14: {
+    en: "14. What happens if I reinstall the app?",
+    es: "14. ¿Qué ocurre si reinstalo la app?",
+  },
+  faqA14: {
+    en: "If your WODs were only stored locally and you reinstall without a backup, local records will be lost. If you used a cloud backup or export, you can restore from that backup after reinstalling.",
+    es: "Si tus WODs estaban solo en local y reinstalas sin una copia de seguridad, perderás los registros locales. Si usaste una copia de seguridad en la nube o exportaste los datos, podrás restaurarlos después de reinstalar.",
+  },
+  faqQ15: {
+    en: "15. Is the app available in other languages?",
+    es: "15. ¿La app está disponible en otros idiomas?",
+  },
+  faqA15: {
+    en: "The app supports multiple languages depending on the device locale. If Spanish or other languages are not available, plan to add them in a future update.",
+    es: "La app puede soportar varios idiomas según la configuración del dispositivo. Si falta español u otros idiomas, está planeado añadirlos en futuras actualizaciones.",
+  },
+  faqQ16: {
+    en: "16. How can I report a bug or request a feature?",
+    es: "16. ¿Cómo reporto un error o solicito una característica?",
+  },
+  // faqA16t1: FAQ, Answer 16, Text 1
+  faqA16t1: {
+    en: "Use the in‑app Support/Feedback option or email ",
+    es: "Usa la opción Soporte/Feedback dentro de la app o envía un correo a ",
+  },
+  // faqA16t2: FAQ, Answer 16, Text 2
+  faqA16t2: {
+    en: " with a description, steps to reproduce (if applicable), your device model and OS version, and any screenshots or logs you wish to attach.",
+    es: " con la descripción, pasos para reproducirlo (si aplica), modelo del dispositivo y versión del sistema operativo, y cualquier captura de pantalla o registro.",
+  },
+  faqQ17: {
+    en: "17. How do I change sound, vibration, or notification settings?",
+    es: "17. ¿Cómo cambio los sonidos, vibración o notificaciones?",
+  },
+  faqA17: {
+    en: "Go to Settings > Audio & Notifications (or similar). You can enable/disable sound, choose alert types, and toggle vibration. Also check device-level notification settings.",
+    es: "Ve a Ajustes > Audio y Notificaciones (o similar). Puedes activar/desactivar sonido, elegir tipos de alerta y alternar vibración. También revisa los ajustes de notificaciones a nivel de dispositivo.",
+  },
+  faqQ18: {
+    en: "18. Are there ads or in‑app purchases?",
+    es: "18. ¿La app tiene anuncios o compras dentro de la app?",
+  },
+  faqA18: {
+    en: "The current app version is ad‑free. You can purchase features such as storing your records in the cloud and have more exercises to select by purchasing the Premium version. Any future changes (ads or in‑app purchases) will be communicated in the app and store listing.",
+    es: "La versión actual no contiene anuncios. Puede adquirir funcionalidades como almacenar los registros en la nube y la posibilidad de seleccionar mas ejercicios adquiriendo la version Premium. Cualquier cambio futuro (anuncios o compras) será comunicado en la app y en la tienda.",
+  },
+  faqQ19: {
+    en: "19. Who do I contact for legal/privacy questions?",
+    es: "19. ¿A quién contacto por temas legales o de privacidad?",
+  },
+  // faqA19t1: FAQ, Answer 16, Text 1
+  faqA19t1: {
+    en: "Contact ",
+    es: "Contacta a ",
+  },
+  // faqA19t2: FAQ, Answer 16, Text 1
+  faqA19t2: {
+    en: " for privacy or legal questions. For data rights requests (access, deletion, portability), state your request clearly and include the email associated with the account or device if applicable.",
+    es: " para preguntas legales o de privacidad. Para solicitudes de derechos de datos (acceso, eliminación, portabilidad), indica claramente tu solicitud y el email asociado a la cuenta o dispositivo si corresponde.",
+  },
+  faqQ20: {
+    en: "20. Where can I read the Terms & Conditions and Privacy Policy?",
+    es: "20. ¿Dónde puedo leer los Términos y la Política de Privacidad?",
+  },
+  faqA20: {
+    en: "The Terms & Conditions and Privacy Policy are available within the app and on our website (or store listing). Please review them for full details.",
+    es: "Los Términos y la Política de Privacidad están disponibles dentro de la app y en nuestro sitio web/listado en la tienda. Revíselos para obtener detalles completos.",
+  },
+  // faqQX: {
+  //   en: "xxx",
+  //   es: "xxx",
+  // },
+  // faqAX: {
+  //   en: "xxx",
+  //   es: "xxx",
+  // },
 };
