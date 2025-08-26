@@ -41,7 +41,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-secondary hover:text-primary transition-colors">
+                <a href="https://ivin-dev.com/#contact" className="text-secondary hover:text-primary transition-colors" target="_blank" rel="noopener external">
                   {t('footerContact')}
                 </a>
               </li>
