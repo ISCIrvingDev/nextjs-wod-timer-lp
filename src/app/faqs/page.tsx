@@ -18,7 +18,7 @@ export default function Faqs() {
   const { t, language, changeLanguage } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background mb-8">
       <section className="relative min-h-screen bg-gradient-background flex flex-col">
         {/* Navigation */}
         <nav className="flex justify-between items-center p-6 max-w-7xl mx-auto w-full">
