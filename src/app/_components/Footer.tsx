@@ -58,7 +58,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-secondary hover:text-primary transition-colors">
+                <a href="/terms" className="text-secondary hover:text-primary transition-colors">
                   {t('footerTerms')}
                 </a>
               </li>

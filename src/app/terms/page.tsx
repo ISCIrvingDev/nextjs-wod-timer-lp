@@ -14,7 +14,7 @@ import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { useTranslation } from "@/hooks/use-translation.hook";
 import Link from 'next/link';
 
-export default function Faqs() {
+export default function Terms() {
   const { t, language, changeLanguage } = useTranslation();
 
   return (
@@ -35,219 +35,179 @@ export default function Faqs() {
           />
         </nav>
 
-        {/* FAQs Section */}
+        {/* Terms and Conditions Sections */}
         <div className="flex-1 flex items-center justify-center px-6">
           <div className="max-w-7xl mx-auto grid lg:grid-cols-1 gap-12 items-center">
             <div className="text-center lg:text-left space-y-8">
               <div className="space-y-4">
                 {/* Title */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                  {t('faqTitle')}
+                  {t('termsTitle')}
                 </h1>
 
                 {/* Last Updated */}
-                <div className="text-sm text-secondary">{t('faqLastUpdated')}</div>
+                <div className="text-sm text-secondary">{t('termsLastUpdated')}</div>
 
-                {/* Questions */}
+                {/* Terms and Conditions */}
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ1')}
+                    {t('termTitle1')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA1')}
+                    {t('term1')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ2')}
+                    {t('termTitle2')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA2')}
+                    {t('term2')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ3')}
+                    {t('termTitle3')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA3')}
+                    {t('term3')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ4')}
+                    {t('termTitle4')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA4')}
+                    {t('term4')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ5')}
+                    {t('termTitle5')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA5')}
+                    {t('term5')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ6')}
+                    {t('termTitle6')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA6')}
+                    {t('term6')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ7')}
+                    {t('termTitle7')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA7')}
+                    {t('term7')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ8')}
+                    {t('termTitle8')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA8')}
+                    {t('term8')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ9')}
+                    {t('termTitle9')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA9')}
+                    {t('term9')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ10')}
+                    {t('termTitle10')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA10')}
+                    {t('term10')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ11')}
+                    {t('termTitle11')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA11')}
+                    {t('term11')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ12')}
+                    {t('termTitle12')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA12')}
+                    {t('term12')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ13')}
+                    {t('termTitle13')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA13')}
+                    {t('term13')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ14')}
+                    {t('termTitle14')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA14')}
+                    {t('term14')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ15')}
+                    {t('termTitle15')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA15')}
+                    {t('term15')}
                   </p>
                 </div>
 
                 <div>
                   <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ16')}
+                    {t('termTitle16')}
                   </p>
                   <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA16t1')}
+                    {t('term16')}
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
+                    {t('termTitle17')}
+                  </p>
+                  <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
+                    {t('term17')}
 
                     <>
                       <span className='text-primary'>
-                        <Link href="mailto:irving@ivin-dev.com?subject=WOD%20Timer:%20Request%20a%20feature&body=Please%20describe%20the%20bug%20or%20requested%20features..."
+                        <Link href="mailto:irving@ivin-dev.com?subject=WOD%20Timer:%20Terms%20and%20Conditions"
                           target="_blank" rel="noopener external">
                           irving@ivin-dev.com
                         </Link>
                       </span>
                     </>
-
-                    {t('faqA16t2')}
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ17')}
-                  </p>
-                  <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA17')}
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ18')}
-                  </p>
-                  <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA18')}
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ19')}
-                  </p>
-                  <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA19t1')}
-
-                    <>
-                      <span className='text-primary'>
-                        <Link href="mailto:irving@ivin-dev.com?subject=WOD%20Timer:%20Request%20a%20feature&body=Please%20describe%20the%20privacy%20questions..."
-                          target="_blank" rel="noopener external">
-                          irving@ivin-dev.com
-                        </Link>
-                      </span>
-                    </>
-
-                    {t('faqA19t2')}
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
-                    {t('faqQ20')}
-                  </p>
-                  <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
-                    {t('faqA20')}
                   </p>
                 </div>
               </div>

@@ -337,11 +337,191 @@ export const translations: Translations = {
     en: "The Terms & Conditions and Privacy Policy are available within the app and on our website (or store listing). Please review them for full details.",
     es: "Los Términos y la Política de Privacidad están disponibles dentro de la app y en nuestro sitio web/listado en la tienda. Revíselos para obtener detalles completos.",
   },
-  // faqQX: {
+
+  // Terms and Conditions Page
+  termsTitle: {
+    en: "Terms and Conditions",
+    es: "Términos y Condiciones",
+  },
+  termsLastUpdated: {
+    en: "Last updated: August 24, 2025",
+    es: "Última actualización: 24 de agosto de 2025",
+  },
+  termTitle1: {
+    en: "1. Introduction",
+    es: "1. Introducción",
+  },
+  term1: {
+    en: "Welcome to WOD Timer (the “App”), a mobile application developed to provide timers and logging for CrossFit-style workouts including RFT, AMRAP, EMOM and Tabata. These Terms and Conditions govern your access to and use of the App. By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.",
+    es: "Bienvenido a WOD Timer (la “App”), una aplicación móvil diseñada para proporcionar temporizadores y registro de entrenamientos estilo CrossFit, incluyendo RFT, AMRAP, EMOM y Tabata. Estos Términos y Condiciones regulan tu acceso y uso de la App. Al descargar, instalar o usar la App aceptas estar sujeto a estos Términos. Si no estás de acuerdo, no uses la App.",
+  },
+  termTitle2: {
+    en: "2. Definitions",
+    es: "2. Definiciones",
+  },
+  term2: {
+    en: `
+    * **"Developer", "we", "us", or "our"** means the person or entity that develops and distributes the App.
+    * **"User", "you", or "your"** means any person who downloads, installs or uses the App.
+    * **"WOD"** refers to a Workout of the Day session tracked by the App.
+    `,
+    es: `
+    * **"Desarrollador", "nosotros", "nuestro"** se refiere a la persona o entidad que desarrolla y distribuye la App.
+    * **"Usuario", "tú"** se refiere a cualquier persona que descarga, instala o usa la App.
+    * **"WOD"** se refiere a una sesión de Workout of the Day registrada por la App.
+    `,
+  },
+  termTitle3: {
+    en: "3. License and Access",
+    es: "3. Licencia y Acceso",
+  },
+  term3: {
+    en: "Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to use the App on devices that you own or control, solely for personal, non-commercial use.",
+    es: "Sujeto a estos Términos, te concedemos una licencia limitada, no exclusiva, intransferible y revocable para usar la App en los dispositivos que poseas o controles, únicamente para uso personal y no comercial.",
+  },
+  termTitle4: {
+    en: "4. Local Storage and User Data",
+    es: "4. Almacenamiento Local y Datos del Usuario",
+  },
+  term4: {
+    en: `
+    * The App stores WOD records and related information locally on your device’s storage. We do not automatically upload or sync your WOD records to our servers unless an explicit feature that transmits data to a cloud service is added and you opt in.
+    * You are responsible for maintaining backups of your device and the local data if you wish to preserve it.
+    `,
+    es: `
+    * La App guarda los registros de WOD y la información relacionada localmente en el almacenamiento de tu dispositivo. No subimos ni sincronizamos automáticamente tus registros a servidores nuestros, salvo que se añada una función explícita de sincronización en la nube y tú optes por activarla.
+    * Eres responsable de mantener copias de seguridad de tu dispositivo y de los datos locales si deseas preservarlos.
+    `,
+  },
+  termTitle5: {
+    en: "5. Privacy",
+    es: "5. Privacidad",
+  },
+  term5: {
+    en: "Use of the App is also governed by our Privacy Policy (create or link to a separate Privacy Policy). The Privacy Policy explains what information we collect (if any beyond local storage), how it is used, and your privacy rights. If you provide us with any personal information through optional in‑App features, you consent to the collection and use as described in the Privacy Policy.",
+    es: "El uso de la App también se rige por nuestra Política de Privacidad (crear o enlazar a una Política de Privacidad separada). La Política de Privacidad explica qué información recopilamos (si hubiera más allá del almacenamiento local), cómo la usamos y tus derechos de privacidad. Si nos proporcionas información personal mediante funciones opcionales dentro de la App, consientes la recopilación y uso según lo descrito en la Política de Privacidad.",
+  },
+  termTitle6: {
+    en: "6. Restrictions and Prohibited Uses",
+    es: "6. Restricciones y Usos Prohibidos",
+  },
+  term6: {
+    en: `
+    You agree not to:
+
+    * Copy, modify, distribute, sell, rent, lease, license, or create derivative works of the App or its content;
+    * Attempt to reverse engineer, decompile, or disassemble the App except to the extent permitted by applicable law;
+    * Use the App in any unlawful or harmful manner, or for any purposes that would violate these Terms.
+    `,
+    es: `
+    Aceptas no:
+
+    * Copiar, modificar, distribuir, vender, alquilar, arrendar, licenciar o crear obras derivadas de la App o su contenido;
+    * Intentar revertir, descompilar o desensamblar la App, salvo en la medida permitida por la ley aplicable;
+    * Utilizar la App de forma ilegal o en cualquier forma que viole estos Términos.
+    `,
+  },
+  termTitle7: {
+    en: "7. Health, Safety, and Assumption of Risk",
+    es: "7. Salud, Seguridad y Asunción de Riesgo",
+  },
+  term7: {
+    en: `
+    * The App is a timer and logging tool only and does not provide medical, fitness, or professional advice. Nothing in the App or these Terms should be construed as medical or fitness guidance.
+    * You are solely responsible for your fitness regimen and for determining whether you are physically fit and able to perform any WOD. Always consult a physician or qualified professional before beginning any new exercise program.
+    * By using the App, you acknowledge and accept the risks associated with physical exercise, including the risk of personal injury or death. You agree that the Developer is not responsible for any injury, loss, or damage resulting from your use of the App or your participation in exercise activities.
+    `,
+    es: `
+    * La App es únicamente una herramienta de temporizador y registro y no proporciona asesoramiento médico, de entrenamiento o profesional. Nada en la App ni en estos Términos debe interpretarse como orientación médica o de entrenamiento.
+    * Eres el único responsable de tu régimen de ejercicios y de determinar si estás en condiciones físicas para realizar cualquier WOD. Consulta siempre a un médico o profesional calificado antes de comenzar un nuevo programa de ejercicio.
+    * Al usar la App, reconoces y aceptas los riesgos asociados al ejercicio físico, incluyendo lesiones personales o la muerte. Aceptas que el Desarrollador no será responsable por ninguna lesión, pérdida o daño que resulte del uso de la App o de tu participación en actividades físicas.
+    `,
+  },
+  termTitle8: {
+    en: "8. Intellectual Property",
+    es: "8. Propiedad Intelectual",
+  },
+  term8: {
+    en: "All intellectual property rights in and to the App, including but not limited to text, graphics, code, and trademarks, are owned by the Developer or licensed to the Developer. You obtain no ownership rights to the App or its content through your use.",
+    es: "Todos los derechos de propiedad intelectual relacionados con la App, incluyendo pero no limitado a texto, gráficos, código y marcas, son propiedad del Desarrollador o están licenciados al Desarrollador. No obtienes derechos de propiedad sobre la App ni su contenido a través de su uso.",
+  },
+  termTitle9: {
+    en: "9. Third‑Party Services",
+    es: "9. Servicios de Terceros",
+  },
+  term9: {
+    en: "If the App uses or links to any third-party services, software, or content, such services are governed by their own terms and privacy policies. We are not responsible for the availability, content or practices of third-party services.",
+    es: "Si la App utiliza o enlaza con servicios, software o contenido de terceros, dichos servicios están regulados por sus propios términos y políticas de privacidad. No somos responsables de la disponibilidad, contenido o prácticas de servicios de terceros.",
+  },
+  termTitle10: {
+    en: "10. Warranty Disclaimer",
+    es: "10. Renuncia de Garantías",
+  },
+  term10: {
+    en: 'The App is provided "as is" and "as available" without warranty of any kind, whether express, implied, statutory or otherwise. To the fullest extent permitted by law, we expressly disclaim all warranties, including implied warranties of merchantability, fitness for a particular purpose, title and non-infringement.',
+    es: 'La App se proporciona "tal cual" y "según disponibilidad" sin garantías de ningún tipo, ya sean expresas, implícitas, legales o de otra índole. En la máxima medida permitida por la ley, renunciamos expresamente a todas las garantías, incluyendo garantías implícitas de comerciabilidad, idoneidad para un fin particular, título y no incumplimiento.',
+  },
+  termTitle11: {
+    en: "11. Limitation of Liability",
+    es: "11. Limitación de Responsabilidad",
+  },
+  term11: {
+    en: "To the maximum extent permitted by applicable law, in no event will the Developer be liable to you for any indirect, incidental, special, consequential or punitive damages, or any loss of profits, revenue, data or business opportunities arising out of or in connection with your use of or inability to use the App, even if advised of the possibility of such damages.",
+    es: "En la máxima medida permitida por la ley aplicable, en ningún caso el Desarrollador será responsable ante ti por daños indirectos, incidentales, especiales, consecuentes o punitivos, ni por pérdida de beneficios, ingresos, datos u oportunidades de negocio que surjan de o en relación con tu uso o imposibilidad de usar la App, incluso si se te ha advertido de la posibilidad de tales daños.",
+  },
+  termTitle12: {
+    en: "12. Indemnification",
+    es: "12. Indemnización",
+  },
+  term12: {
+    en: "You agree to indemnify and hold harmless the Developer and its affiliates, officers, agents, and employees from and against any claims, liabilities, damages, losses and expenses, including reasonable attorneys' fees, arising out of or in any way connected with your breach of these Terms or your use of the App.",
+    es: "Aceptas indemnizar y eximir de responsabilidad al Desarrollador y sus afiliados, directivos, agentes y empleados frente a cualquier reclamo, responsabilidad, daños, pérdidas y gastos, incluidos honorarios razonables de abogados, que surjan de o estén relacionados con tu incumplimiento de estos Términos o tu uso de la App.",
+  },
+  termTitle13: {
+    en: "13. Termination",
+    es: "13. Terminación",
+  },
+  term13: {
+    en: "We may suspend or terminate your access to the App at any time and for any reason, including if you breach these Terms. Upon termination, your license to use the App will cease and any local data will remain on your device unless you delete it.",
+    es: "Podemos suspender o terminar tu acceso a la App en cualquier momento y por cualquier motivo, incluyendo si incumples estos Términos. Tras la terminación, tu licencia de uso cesará y los datos locales permanecerán en tu dispositivo a menos que los elimines.",
+  },
+  termTitle14: {
+    en: "14. Changes to These Terms",
+    es: "14. Cambios a Estos Términos",
+  },
+  term14: {
+    en: 'We may modify these Terms from time to time. When we make changes, we will update the "Last updated" date above. Continued use of the App after changes constitutes your acceptance of the updated Terms.',
+    es: 'Podemos modificar estos Términos ocasionalmente. Cuando efectuemos cambios, actualizaremos la fecha de "Última actualización" arriba. El uso continuado de la App después de los cambios constituye tu aceptación de los Términos actualizados.',
+  },
+  termTitle15: {
+    en: "15. Governing Law and Dispute Resolution",
+    es: "15. Ley Aplicable y Resolución de Controversias",
+  },
+  term15: {
+    en: "These Terms are governed by and construed in accordance with the laws of the jurisdiction where the Developer is located. Any dispute arising from these Terms or your use of the App will be subject to the exclusive jurisdiction of the courts of that jurisdiction.",
+    es: "Estos Términos se rigen e interpretan de acuerdo con las leyes de la jurisdicción donde el Desarrollador tenga su domicilio. Cualquier disputa relacionada con estos Términos o tu uso de la App estará sujeta a la jurisdicción exclusiva de los tribunales de dicha jurisdicción.",
+  },
+  termTitle16: {
+    en: "16. Severability",
+    es: "16. Separabilidad",
+  },
+  term16: {
+    en: "If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions will remain in full force and effect.",
+    es: "Si alguna disposición de estos Términos se considera inválida o inaplicable, las disposiciones restantes continuarán en pleno vigor y efecto.",
+  },
+  termTitle17: {
+    en: "17. Contact Information",
+    es: "17. Información de Contacto",
+  },
+  term17: {
+    en: "If you have questions, concerns, or requests regarding these Terms, please contact: ",
+    es: "Si tienes preguntas, inquietudes o solicitudes relacionadas con estos Términos, por favor contacta a: ",
+  },
+  // termTitle1: {
   //   en: "xxx",
   //   es: "xxx",
   // },
-  // faqAX: {
+  // term1: {
   //   en: "xxx",
   //   es: "xxx",
   // },
