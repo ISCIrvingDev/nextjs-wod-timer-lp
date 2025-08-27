@@ -13,7 +13,7 @@ import Link from 'next/link';
 // * Hooks
 import { useTranslation } from "@/hooks/use-translation.hook";
 
-export default function TermsComponent() {
+export function TermsComponent() {
   const { t, language, changeLanguage } = useTranslation();
 
   return (
