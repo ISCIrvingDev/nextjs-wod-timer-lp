@@ -517,6 +517,226 @@ export const translations: Translations = {
     en: "If you have questions, concerns, or requests regarding these Terms, please contact: ",
     es: "Si tienes preguntas, inquietudes o solicitudes relacionadas con estos Términos, por favor contacta a: ",
   },
+
+  // Privacy Page
+  privacyTitle: {
+    en: "Privacy Policy",
+    es: "Política de Privacidad",
+  },
+  privacyLastUpdated: {
+    en: "Last updated: August 24, 2025",
+    es: "Última actualización: 24 de agosto de 2025",
+  },
+  privacyTitle1: {
+    en: "1. Introduction",
+    es: "1. Introducción",
+  },
+  privacy1: {
+    en: `
+    WOD Timer (the “App”) is developed and provided by [Developer Name] ("we", "us", "our"). This Privacy Policy describes how we collect, use, disclose, and protect information when you use the App. By downloading or using the App you agree to the terms of this Privacy Policy.
+
+    Apple and Google require that apps disclose their privacy practices and provide a privacy policy; this document is intended to meet those requirements.
+    Apple Developer
+    Ayuda de Google
+    `,
+    es: `
+    WOD Timer (la “App”) es desarrollada por [Nombre del Desarrollador] ("nosotros", "nuestro"). Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos la información cuando usas la App. Al descargar o usar la App aceptas esta Política.
+
+    Apple y Google exigen que las aplicaciones publiquen una política de privacidad que explique sus prácticas sobre datos; este documento cumple con ese requisito.
+    Apple Developer
+    Ayuda de Google
+    `,
+  },
+  privacyTitle2: {
+    en: "2. Controller / Contact Information",
+    es: "2. Responsable / Contacto",
+  },
+  privacy2t1: {
+    en: "Data controller: Irving Salazar",
+    es: "Responsable de datos: Irving Salazar",
+  },
+  privacy2t2: {
+    en: "Contact email: ",
+    es: "Correo de contacto: ",
+  },
+  // privacy2t3: {
+  //   en: 'Address / Jurisdiction: [Your company address and governing law]',
+  //   es: 'Dirección / Jurisdicción: [Dirección de la empresa y ley aplicable]',
+  // },
+  privacyTitle3: {
+    en: "3. What information we collect",
+    es: "3. Qué información recopilamos",
+  },
+  privacy3i1: {
+    en: "3.1 Local-only data (default)",
+    es: "3.1 Datos locales (por defecto)",
+  },
+  privacy3i1t: {
+    en: `
+    WOD records and logs: workout type (RFT/AMRAP/EMOM/Tabata), timestamps, durations, scores/reps, and any notes you enter. All of these are stored locally on your device by default.
+
+    Device-local settings: preferences (e.g., sound on/off, theme).
+    `,
+    es: `
+    Registros de WOD: tipo de entrenamiento (RFT/AMRAP/EMOM/Tabata), marcas de tiempo, duraciones, puntuaciones/repeticiones y notas introducidas. Todos estos se almacenan localmente en tu dispositivo por defecto.
+
+    Configuraciones del dispositivo: preferencias de la App.
+    `,
+  },
+  privacy3i2: {
+    en: "3.2 Optional or conditional data (only if you enable / opt-in)",
+    es: "3.2 Datos opcionales o condicionales (solo si optas)",
+  },
+  privacy3i2t: {
+    en: `
+    If you enable optional features (for example, cloud sync, account creation, analytics, crash reporting or social sharing), the App may collect or transmit additional data such as:
+
+    Account identifiers (email, username) if you create an account.
+
+    Minimal device identifiers and crash logs for diagnostics.
+
+    Aggregate analytics (usage metrics) if you opt in.
+
+    We do not collect personal data beyond device-local storage unless you explicitly enable an option that transmits data off-device.
+    `,
+    es: `
+    Si activas funciones opcionales (por ejemplo, sincronización en la nube, creación de cuenta, analíticas o informes de fallos), la App podría recopilar o transmitir datos adicionales como:
+
+    Identificadores de cuenta (email, nombre de usuario).
+
+    Identificadores del dispositivo y registros de fallos mínimos para diagnóstico.
+
+    Analíticas agregadas de uso, si optas por ello.
+
+    No recopilamos datos personales fuera del almacenamiento local salvo que actives expresamente una función que envíe datos fuera del dispositivo.
+    `,
+  },
+  privacyTitle4: {
+    en: "4. How we use your information",
+    es: "4. Cómo usamos tu información",
+  },
+  privacy4: {
+    en: `
+    We use the data we collect to:
+
+    Provide and improve the App and its features (timers, logs, backups).
+
+    Store and display your WOD history locally.
+
+    Provide optional services you choose (cloud sync, backups, or account features).
+
+    Diagnose and fix technical issues if you opt into crash reporting or diagnostics.
+    We will not use your personal data for purposes other than those disclosed without your consent.
+    `,
+    es: `
+    Usamos los datos recopilados para:
+
+    Proveer y mejorar la App y sus funcionalidades (temporizadores, registros, backups).
+
+    Guardar y mostrar tu historial de WOD localmente.
+
+    Ofrecer servicios opcionales que actives (sincronización en la nube, backups, cuentas).
+
+    Diagnosticar y corregir problemas técnicos si activas informes de fallos.
+    No usaremos tus datos personales para otros fines sin tu consentimiento.
+    `,
+  },
+  privacyTitle5: {
+    en: "5. Third-party services and disclosures",
+    es: "5. Servicios de terceros y divulgaciones",
+  },
+  privacy5: {
+    en: "If you enable optional features that use third-party services (cloud providers, analytics, or authentication), your data may be shared with those providers in order to provide the service. We will disclose the categories of third-party recipients and the purpose of sharing when you opt into such features. The App does not sell personal information. If that changes, we will update this policy and provide appropriate controls.",
+    es: "Si activas funciones que usan servicios de terceros (proveedores en la nube, analítica, autenticación), tus datos pueden compartirse con esos proveedores para prestar el servicio. Cuando actives dichas funciones te informaremos las categorías de terceros y la finalidad del intercambio. La App no vende información personal. Si eso cambiara, actualizaremos esta política y te ofreceremos controles adecuados.",
+  },
+  privacyTitle6: {
+    en: "6. Data retention and backups",
+    es: "6. Conservación y copias de seguridad",
+  },
+  privacy6: {
+    en: `
+    Local data: remains on your device until you delete it or uninstall the App. You are responsible for maintaining backups of your device data if you want to preserve WOD history.
+
+    Cloud / account data (if enabled): retention period will be disclosed at the time you enable that feature.
+    `,
+    es: `
+    Datos locales: permanecen en tu dispositivo hasta que los elimines o desinstales la App. Eres responsable de las copias de seguridad si deseas preservar el historial de WOD.
+
+    Datos en la nube (si activas): los períodos de conservación se comunicarán cuando actives la función.
+    `,
+  },
+  privacyTitle7: {
+    en: "7. Security",
+    es: "7. Seguridad",
+  },
+  privacy7: {
+    en: `
+    We use reasonable administrative and technical safeguards to protect your data. However, no method of transmission or storage is 100% secure. If you opt into cloud features, note that transmission over the internet carries inherent risks.
+    `,
+    es: `
+    Implementamos medidas técnicas y administrativas razonables para proteger los datos. No obstante, ninguna transmisión o almacenamiento es 100% seguro. Si activas funciones en la nube, ten en cuenta los riesgos inherentes a la transmisión por internet.
+    `,
+  },
+  privacyTitle8: {
+    en: "8. Children’s privacy",
+    es: "8. Privacidad de menores",
+  },
+  privacy8: {
+    en: "The App is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us personal data, contact us and we will take steps to remove the data.",
+    es: "La App no está dirigida a menores de 13 años. No recopilamos conscientemente información personal de menores de 13 años. Si crees que un menor ha proporcionado datos, contáctanos y procederemos a eliminarlos.",
+  },
+  privacyTitle9: {
+    en: "9. Your privacy rights",
+    es: "9. Tus derechos de privacidad",
+  },
+  privacy9t1: {
+    en: "Depending on your location, you may have rights including:",
+    es: "Según tu ubicación, puedes tener derechos como:",
+  },
+  privacy9t2: {
+    en: "Access to the personal data we hold about you.",
+    es: "Acceso a los datos personales que tenemos sobre ti.",
+  },
+  privacy9t3: {
+    en: "Rectification of inaccurate personal data.",
+    es: "Rectificación de datos inexactos.",
+  },
+  privacy9t4: {
+    en: "Erasure (right to be forgotten) in certain circumstances.",
+    es: "Supresión de datos en ciertos supuestos.",
+  },
+  privacy9t5: {
+    en: "Restriction or objection to certain processing.",
+    es: "Limitación u oposición al tratamiento.",
+  },
+  privacy9t6: {
+    en: "Data portability — to receive a copy of your data in a structured format. To exercise any rights, contact us at: ",
+    es: "Portabilidad de datos en formato estructurado. Para ejercer tus derechos contáctanos en: ",
+  },
+  privacyTitle10: {
+    en: "10. International transfers",
+    es: "10. Transferencias internacionales",
+  },
+  privacy10: {
+    en: "If you enable cloud features that store data outside your country, transfers will be governed by applicable law and safeguards (e.g., standard contractual clauses) where required.",
+    es: "Si activas funciones en la nube que implican almacenamiento fuera de tu país, dichas transferencias estarán sujetas a la ley aplicable y a las garantías necesarias (por ejemplo, cláusulas contractuales estándar) cuando corresponda.",
+  },
+  privacyTitle11: {
+    en: "11. Changes to this Privacy Policy",
+    es: "11. Cambios en la Política",
+  },
+  privacy11: {
+    en: 'We may update this Policy to reflect changes in features, the law, or our practices. We will review and update the "Last Updated" date.',
+    es: 'Podemos actualizar esta Política para reflejar cambios en funciones, la ley o nuestras prácticas. Revisaremos y actualizaremos la fecha de "Última actualización".',
+  },
+  privacyTitle12: {
+    en: "12. Contact us",
+    es: "12. Contáctanos",
+  },
+  privacy12: {
+    en: "If you have questions, concerns, or requests, contact: ",
+    es: "Para consultas, solicitudes o reclamaciones: ",
+  },
   // termTitle1: {
   //   en: "xxx",
   //   es: "xxx",

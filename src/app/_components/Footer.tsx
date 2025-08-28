@@ -30,11 +30,11 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-card-foreground mb-4">{t('footerSupport')}</h3>
             <ul className="space-y-2 text-sm">
-              <li>
+              {/* <li>
                 <a href="#" className="text-secondary hover:text-primary transition-colors">
                   Help Center
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="/faqs" className="text-secondary hover:text-primary transition-colors">
                   FAQ
@@ -53,7 +53,7 @@ export function Footer() {
             <h3 className="font-semibold text-card-foreground mb-4">Legal</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="text-secondary hover:text-primary transition-colors">
+                <a href="/privacy" className="text-secondary hover:text-primary transition-colors">
                   {t('footerPrivacy')}
                 </a>
               </li>
