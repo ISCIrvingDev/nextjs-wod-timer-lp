@@ -201,8 +201,18 @@ export function PrivacyComponent() {
                 <p className="text-xl font-bold max-w-2xl mx-auto lg:mx-0">
                   {t('privacyTitle12')}
                 </p>
+
                 <p className="text-lg text-secondary max-w-2xl mx-auto lg:mx-0">
                   {t('privacy12')}
+
+                  <>
+                    <span className='text-primary'>
+                      <Link href="mailto:irving@ivin-dev.com?subject=WOD%20Timer:%20Terms%20and%20Conditions"
+                        target="_blank" rel="noopener external">
+                        irving@ivin-dev.com
+                      </Link>
+                    </span>
+                  </>
                 </p>
               </div>
             </div>
